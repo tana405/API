@@ -21,7 +21,7 @@ if __name__ == '__main__':
     size = width, height = 600, 600
     screen = pygame.display.set_mode(size)
 
-    board = Board(5, 5)
+    board = Map(5, 5)
     running = True
     while running:
         for event in pygame.event.get():
