@@ -1,11 +1,18 @@
 import pygame
+import sys
+import os
+
+'''https://yandex.ru/maps/53/kurgan/?ll=65.369564%2C55.439279&z=13.57'''
 
 
-class Board:
+class Map:
     # создание поля
     def __init__(self, width, height):
         self.width = width
         self.height = height
+        self.coords1 = 65.369564
+        self.coords2 = 55.439279
+        self.coords3 = 13.57
 
 
 if __name__ == '__main__':
